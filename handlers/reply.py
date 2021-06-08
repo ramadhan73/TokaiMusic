@@ -47,7 +47,7 @@ async def play(_, message: Message):
                        url='https://telegra.ph/Music-Bot-Command-04-15'),
                     InlineKeyboardButton(
                         text="Channel 🔔",
-                        url='https://t.me/TokaiProject')
+                        url='https://t.me/calonpenyanyi')
                    
                 ]
             ]
@@ -79,7 +79,7 @@ async def play(_, message: Message):
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
-        photo="https://telegra.ph/file/d1adb5378a94e1a9a4daa.jpg",
+        photo="https://telegra.ph/file/1f274a7e5a4c7e396657e.png",
         reply_markup=keyboard,
         caption = f"🔔 **Status:** Dimainkan\n" \
                + f"🎧 **Request Dari:** {message.from_user.mention}"
