@@ -429,7 +429,7 @@ async def play(_, message: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message.chat.id,"Aku Official Assistance Dari Rams Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
@@ -440,7 +440,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Bisa Masuk Kedalam Grup Karena Masalah Flood! pastikan Jika Asisten Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @TokaiMusicAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Assistenrams Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -495,7 +495,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel",
-                        url='https://t.me/TokaiProject')
+                        url='https://t.me/calonpenyanyi')
                 ]                             
             ]
         )
@@ -551,7 +551,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "DaisyMusic"
+        user.first_name =  "Ramsmusic"
     usar = user
     wew = usar.id
     try:
@@ -570,7 +570,7 @@ async def deezer(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Rams Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
@@ -581,7 +581,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasuki Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @TokaiMusicAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Assistenrams Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -621,7 +621,7 @@ async def deezer(client: Client, message_: Message):
              [
                  InlineKeyboardButton(
                      text="Channel",
-                     url='https://t.me/TokaiMusik')
+                     url='https://t.me/calonpenyanyi')
              ]                      
          ]
      )
@@ -637,9 +637,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"Tokai Music #️⃣ Queued Di Posisi {position}")
+        await res.edit_text(f"Rams music #️⃣ Queued Di Posisi {position}")
     else:
-        await res.edit_text("Tokai Music ▶️ Memutar.....")
+        await res.edit_text("Rams Music ▶️ Memutar.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -674,7 +674,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "DaisyMusic"
+        user.first_name =  "RamsMusic"
     usar = user
     wew = usar.id
     try:
@@ -693,7 +693,7 @@ async def jiosaavn(client: Client, message_: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Tokai Music Bot")
+                              await USER.send_message(message_.chat.id,"Aku Official Assistance Dari Rams Music Bot")
                               await lel.edit(
                                   "<b>Asisten Bot Berhasil Join Ke Grup</b>",
                               )
@@ -704,7 +704,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} Tidak Dapat Memasukin Grup Karena Masalah Flood! Pastikan User Tidak Dibanned Digrup."
-                                  "\n\nAtau Tambahkan @TokaiMusicAssistance Secara Manual Dan Coba Lagi</b>",
+                                  "\n\nAtau Tambahkan @Assistenrams Secara Manual Dan Coba Lagi</b>",
                               )
                               pass
     try:
@@ -747,8 +747,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="Instagram",
-                   url='https://instagram.com/sndykaa/')
+                   text="channel",
+                   url='https://t.me/calonpenyanyi')
              ]                          
          ]
      )
@@ -766,12 +766,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"Tokai Music #️⃣ Queued Di Posisi {position}",
+            caption=f"Rams Music #️⃣ Queued Di Posisi {position}",
         
         )           
            
     else:
-        await res.edit_text("Tokai Music ▶️ Memutar.....")
+        await res.edit_text("Rams Music ▶️ Memutar.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
