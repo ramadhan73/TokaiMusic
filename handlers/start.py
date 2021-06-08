@@ -37,7 +37,9 @@ async def start(_, message: Message):
                 ],
                 [
                      InlineKeyboardButton(text="🔔 Channel", url=f"https://t.me/calonpenyanyi"),
-                     InlineKeyboardButton(text="Group 🔊", url=f"https://t.me/wavyheartt"),
+                     InlineKeyboardButton(text="panduan📜", url=f"https://telegra.ph/Music-Bot-Command-04-15")
+
+"),
                 ],
                 [
                      InlineKeyboardButton(text="📌Owner📌", url="https://t.me/gksukaribett"),
